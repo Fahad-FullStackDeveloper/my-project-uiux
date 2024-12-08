@@ -7,7 +7,7 @@ export const Header2 = () => {
   return (
     <header
       className="bg-black text-white py-16 bg-cover bg-center"
-      style={{ backgroundImage: `url('/images/HeaderBG.png')` }} // Change the path to your image
+      style={{ backgroundImage: `url('/images/HeaderBG.png')` }} // Ensure correct image path
     >
       <div className="container mx-auto px-4 flex flex-col justify-center items-center text-center">
         {/* Main Heading */}
@@ -19,7 +19,7 @@ export const Header2 = () => {
         {/* Page Route */}
         <p className="text-lg">
           Home <span className="mx-2">/</span>
-          <span className="text-[#FF9F0D]">About</span>{" "}
+          <span className="text-[#FF9F0D]">About</span>
           {/* Changed color to #FF9F0D */}
         </p>
       </div>
