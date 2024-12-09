@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -62,7 +63,7 @@ const AboutUs = () => {
           <div className="w-full md:w-1/2 lg:w-1/2 grid grid-cols-2 grid-rows-2 gap-4">
             {/* First Image */}
             <div className="col-span-2 row-span-4">
-              <img
+              <Image
                 src="/images/dish2.png" // Replace with your image URL
                 alt="Recipe"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -71,7 +72,7 @@ const AboutUs = () => {
 
             {/* Second Image (Half of the First Image) */}
             <div className="col-span-1 row-span-2">
-              <img
+              <Image
                 src="/images/dish3.png" // Replace with your image URL
                 alt="Recipe"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -80,7 +81,7 @@ const AboutUs = () => {
 
             {/* Third Image (Same Size as Second Image) */}
             <div className="col-span-1 row-span-2">
-              <img
+              <Image
                 src="/images/dish4.png" // Replace with your image URL
                 alt="Recipe"
                 className="w-full h-full object-cover rounded-lg shadow-lg"

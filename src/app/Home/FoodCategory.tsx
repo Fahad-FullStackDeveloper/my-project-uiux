@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const FoodCategory = () => {
   return (
@@ -23,7 +24,7 @@ const FoodCategory = () => {
           {/* First Image (Spanning Two Columns) */}
           <div className="col-span-1 row-span-1 relative">
             {/* Image */}
-            <img
+            <Image
               src="/images/dish5.png" // Replace with your image URL
               alt="Dish 5"
               className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -42,7 +43,7 @@ const FoodCategory = () => {
 
           {/* Second Image */}
           <div className="col-span-1 row-span-1">
-            <img
+            <Image
               src="/images/dish6.png" // Replace with your image URL
               alt="Dish 6"
               className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -51,7 +52,7 @@ const FoodCategory = () => {
 
           {/* Third Image */}
           <div className="col-span-1 row-span-1">
-            <img
+            <Image
               src="/images/dish7.png" // Replace with your image URL
               alt="Dish 7"
               className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -60,7 +61,7 @@ const FoodCategory = () => {
 
           {/* Fourth Image (Spanning Two Columns) */}
           <div className="col-span-1 row-span-1">
-            <img
+            <Image
               src="/images/dish8.png" // Replace with your image URL
               alt="Dish 8"
               className="w-full h-full object-cover rounded-lg shadow-lg"

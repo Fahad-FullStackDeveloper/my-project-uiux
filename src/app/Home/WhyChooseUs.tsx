@@ -1,5 +1,7 @@
 "use client";
+import Image from "next/image";
 import React from "react";
+
 
 const WhyChooseUs = () => {
   return (
@@ -12,7 +14,7 @@ const WhyChooseUs = () => {
             <div className="w-full md:w-1/2 lg:w-1/2 grid grid-cols-10 grid-rows-10 gap-4">
               {/* First Image (Spanning Larger Area) */}
               <div className="col-span-5 row-span-4">
-                <img
+                <Image
                   src="/images/dish9.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -21,7 +23,7 @@ const WhyChooseUs = () => {
 
               {/* Second Image (Placed Beside First Image) */}
               <div className="col-span-4 row-span-3">
-                <img
+                <Image
                   src="/images/dish6.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -30,7 +32,7 @@ const WhyChooseUs = () => {
 
               {/* Third Image (Aligned Below Second Image) */}
               <div className="col-span-3 row-span-3">
-                <img
+                <Image
                   src="/images/dish11.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -39,7 +41,7 @@ const WhyChooseUs = () => {
 
               {/* Fourth Image (Small and Compact) */}
               <div className="col-span-4 row-span-3">
-                <img
+                <Image
                   src="/images/dish10.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -48,7 +50,7 @@ const WhyChooseUs = () => {
 
               {/* Fifth Image (Small and Compact) */}
               <div className="col-span-2 row-span-2">
-                <img
+                <Image
                   src="/images/dish12.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -57,7 +59,7 @@ const WhyChooseUs = () => {
 
               {/* Sixth Image (Small and Compact) */}
               <div className="col-span-2 row-span-2">
-                <img
+                <Image
                   src="/images/dish13.png" // Replace with your image URL
                   alt="Recipe"
                   className="w-full h-full object-cover rounded-lg shadow-lg"
@@ -96,7 +98,7 @@ const WhyChooseUs = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
+                    <Image
                       src="/icons/Hamburger.png" // Replace with your icon image URL
                       alt="Icon 1"
                       className="w-20 h-20"
@@ -112,7 +114,7 @@ const WhyChooseUs = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
+                    <Image
                       src="/icons/Cookie.png" // Replace with your icon image URL
                       alt="Icon 2"
                       className="w-20 h-20"
@@ -128,7 +130,7 @@ const WhyChooseUs = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
+                    <Image
                       src="/icons/Wine.png" // Replace with your icon image URL
                       alt="Icon 3"
                       className="w-20 h-20"
@@ -139,7 +141,7 @@ const WhyChooseUs = () => {
               </div>
               {/* First Image in Grid */}
               <div className="grid grid-cols-1 grid-rows-1 gap-4 pr-36">
-                <img
+                <Image
                   src="/images/30+ Years experienced.png" // Replace with your image URL
                   alt="30+ Years experienced"
                   className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -164,7 +166,7 @@ const WhyChooseUs = () => {
             <div className="absolute inset-0 flex justify-evenly items-center gap-10">
               {/* Icon 1 */}
               <div className="w-72 h-72 rounded-full flex justify-center items-center shadow-md">
-                <img
+                <Image
                   src="/icons/Chef.png" // Replace with your icon URL
                   alt="Professional Chef"
                   className="w-40 h-48"
@@ -173,7 +175,7 @@ const WhyChooseUs = () => {
 
               {/* Icon 2 */}
               <div className="w-72 h-72 rounded-full flex justify-center items-center shadow-md">
-                <img
+                <Image
                   src="/icons/Items of food.png" // Replace with your icon URL
                   alt="Items of food"
                   className="w-40 h-48"
@@ -182,7 +184,7 @@ const WhyChooseUs = () => {
 
               {/* Icon 3 */}
               <div className="w-72 h-72 rounded-full flex justify-center items-center shadow-md">
-                <img
+                <Image
                   src="/icons/Years of Experienced.png" // Replace with your icon URL
                   alt="Years of Experienced"
                   className="w-40 h-48"
@@ -191,7 +193,7 @@ const WhyChooseUs = () => {
 
               {/* Icon 4 */}
               <div className="w-72 h-72 rounded-full flex justify-center items-center shadow-md">
-                <img
+                <Image
                   src="/icons/Happy customers.png" // Replace with your icon URL
                   alt="Happy Customers"
                   className="w-40 h-48"

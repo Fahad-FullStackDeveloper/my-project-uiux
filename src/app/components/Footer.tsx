@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -101,7 +102,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold">Recent Posts</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <img
+                <Image
                   src="/images/dish1.png"
                   alt="Dish 1"
                   className="w-12 h-12 object-cover rounded-lg"
@@ -114,7 +115,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <img
+                <Image
                   src="/images/dish2.png"
                   alt="Dish 2"
                   className="w-12 h-12 object-cover rounded-lg"
@@ -127,7 +128,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <img
+                <Image
                   src="/images/dish3.png"
                   alt="Dish 3"
                   className="w-12 h-12 object-cover rounded-lg"

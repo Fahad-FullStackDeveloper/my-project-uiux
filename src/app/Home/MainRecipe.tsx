@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from "next/image";
 
 const MainRecipe = () => {
   return (
@@ -8,9 +9,9 @@ const MainRecipe = () => {
         <div className="flex flex-wrap items-center">
           {/* Left Side: Text Content */}
           <div className="w-full md:w-1/2 lg:w-1/2 text-center md:text-left pr-20">
-            {/* "It's Quick & Amusing!" */}
+            {/* "Its Quick & Amusing!" */}
             <h2 className="text-3xl text-[#FF9F0D] mb-4 font-[Great vibes]">
-              It's Quick & Amusing!
+              Its Quick & Amusing!
             </h2>
 
             {/* "The Art of Speed Food" */}
@@ -32,13 +33,12 @@ const MainRecipe = () => {
 
           {/* Right Side: Image */}
           <div className="w-full md:w-1/2 lg:w-1/2 relative">
-            <img
-              src="/images/dish1.png" // Replace with your image URL
+            <Image
+              src="/images/dish1.png"
               alt="Recipe"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
-            {/* Remove the gradient or adjust its styling */}
-            <div className="absolute top-0 right-0 w-1/2 h-full bg-transparent"></div> {/* Make sure gradient is transparent */}
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-transparent"></div> {/* gradient is transparent */}
           </div>
         </div>
       </div>

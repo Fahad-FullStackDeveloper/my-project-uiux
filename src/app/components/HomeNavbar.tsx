@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -7,39 +8,39 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="flex space-x-6">
           <li>
-            <a href="/" className="text-white hover:text-gray-400">
+            <Link href="/" className="text-white hover:text-gray-400">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Menu" className="text-white hover:text-gray-400">
+            <Link href="/Menu" className="text-white hover:text-gray-400">
               Menu
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Blog" className="text-white hover:text-gray-400">
+            <Link href="/Blog" className="text-white hover:text-gray-400">
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Pages" className="text-white hover:text-gray-400">
+            <Link href="/Pages" className="text-white hover:text-gray-400">
               Pages
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/About" className="text-white hover:text-gray-400">
+            <Link href="/About" className="text-white hover:text-gray-400">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Shop" className="text-white hover:text-gray-400">
+            <Link href="/Shop" className="text-white hover:text-gray-400">
               Shop
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/Contact" className="text-white hover:text-gray-400">
+            <Link href="/Contact" className="text-white hover:text-gray-400">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -68,7 +69,7 @@ const Navbar = () => {
           </div>
 
           {/* Handbag Icon (White Lined with Hover Color) */}
-          <a
+          <Link
             href="#cart"
             className="text-white hover:text-[#FF9F0D] transition-colors duration-200"
           >
@@ -88,7 +89,7 @@ const Navbar = () => {
                 fill="none" // Remove fill so the icon is just a stroke
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

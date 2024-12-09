@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import HomeNavbar from "./components/HomeNavbar";
-import { Header1 } from "./components/Header";
+import { Header } from "./components/Header";
 import Main from "./Home/MainRecipe";
 import AboutUs from "./Home/About";
 import FoodCategory from "./Home/FoodCategory";
@@ -12,7 +12,7 @@ import MetOurChefs from "./Home/MetOurChefs";
 const HomePage = () => {
   return (
     <div className="bg-black min-h-screen text-white">
-      <Header1 />
+      <Header />
       <HomeNavbar />
       <Main />
       <AboutUs />

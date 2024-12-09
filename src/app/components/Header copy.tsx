@@ -2,7 +2,7 @@
 import React from "react";
 
 // Header1 Component
-export const Header = () => {
+export const Header1 = () => {
   return (
     <header className="bg-black text-white py-4">
       <div className="container mx-auto px-4 flex justify-center items-center mt-10">

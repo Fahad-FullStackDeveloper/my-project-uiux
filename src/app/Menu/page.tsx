@@ -1,43 +1,39 @@
 "use client";
 import React from "react";
 import Navbar from "../components/Navbar";
-
-// Header2 Component
-export const Header2 = () => {
-  return (
-    <header
-      className="bg-black text-white py-16 bg-cover bg-center"
-      style={{ backgroundImage: `url('/images/HeaderBG.png')` }} // Change the path to your image
-    >
-      <div className="container mx-auto px-4 flex flex-col justify-center items-center text-center">
-        {/* Main Heading */}
-        <h1 className="text-5xl font-bold mb-4">
-          <span style={{ color: "#FF9F0D" }}>Our</span>
-          <span className="text-white"> Menu</span>
-        </h1>
-
-        {/* Page Route */}
-        <p className="text-lg">
-          Home <span className="mx-2">/</span>
-          <span className="text-[#FF9F0D]">Menu</span>{" "}
-          {/* Changed color to #FF9F0D */}
-        </p>
-      </div>
-    </header>
-  );
-};
+import Image from "next/image";
 
 const Menu = () => {
   return (
     <>
       <Navbar />
-      <Header2 />
+      {/* Header Component */}
+      <header
+        className="bg-black text-white py-16 bg-cover bg-center"
+        style={{ backgroundImage: `url('/images/HeaderBG.png')` }} // Change the path to your image
+      >
+        <div className="container mx-auto px-4 flex flex-col justify-center items-center text-center">
+          {/* Main Heading */}
+          <h1 className="text-5xl font-bold mb-4">
+            <span style={{ color: "#FF9F0D" }}>Our</span>
+            <span className="text-white"> Menu</span>
+          </h1>
+
+          {/* Page Route */}
+          <p className="text-lg">
+            Home <span className="mx-2">/</span>
+            <span className="text-[#FF9F0D]">Menu</span>{" "}
+            {/* Changed color to #FF9F0D */}
+          </p>
+        </div>
+      </header>
+      {/* This is the Menu Section */}
       <section className="bg-white py-10">
         <div className="container mx-auto px-4 space-y-8">
           {/* Menu Item 1 */}
           <div className="flex items-center bg-white shadow-md rounded-lg p-6">
             {/* Dish Picture - Left */}
-            <img
+            <Image
               src="/images/Starter Menu1.png"
               alt="Dish 1"
               className="w-50 h-50 object-cover mr-6"
@@ -187,7 +183,7 @@ const Menu = () => {
               </div>
 
               {/* Dish Picture - Right */}
-              <img
+              <Image
                 src="/images/Starter Menu2.png"
                 alt="Dish 2"
                 className="w-50 h-50 object-cover ml-6 rounded-md"

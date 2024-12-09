@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ChooseAndPick = () => {
   return (
@@ -47,7 +48,7 @@ const ChooseAndPick = () => {
                   key={index}
                   className="flex flex-col items-center bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform"
                 >
-                  <img
+                  <Image
                     src={`/images/dish${index + 1}.png`}
                     alt={`Dish ${index + 1}`}
                     className="rounded-full w-24 h-24 mb-4"
